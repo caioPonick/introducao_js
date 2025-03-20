@@ -66,7 +66,7 @@ function mensagemPersonalizada(nome, mensagem="Olá"){
 mensagemPersonalizada(prompt("Qual o seu nome? "));
 */
 
-/*
+/* EX008
 function media(n1, n2, n3) {
     let soma = Number(n1) + Number(n2)+ Number(n3);
     let div = soma/3;
@@ -75,7 +75,7 @@ function media(n1, n2, n3) {
 media(prompt("Digite um número: "), prompt("Digite outro número: "), prompt("Digite um último número: "));
 */
 
-/*
+/* EX009
 for(let n = 1; n<=20; n++) {
     if ((n%3)===0){
         console.log(n + ": Múltiplo de 3");
@@ -85,7 +85,7 @@ for(let n = 1; n<=20; n++) {
 }
 */
 
-/*
+/* EX010
 function verificarPalindromo(str) {
     let separaString = str.split("");
     let inverteArray = separaString.reverse();
